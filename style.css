@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d7d7d7;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    gap: 7px;
+}
+
+#difficulty {
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#boardElement {
+    display: grid;
+    margin: 20px;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.cell.bomb {
+    background-color: red;
+}
+
+.cell.number {
+    background-color: lightblue;
+}
+
+.cell.empty {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.cell.hidden {
+    background-color: #ccc;
+}
+
+.board.game-active .cell.hidden:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+
+.gameMessage {
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: x-large;
+    font-style: normal;
+}
+
+#timer {
+    font-family: "Press Start 2P", system-ui;
+    font-size: x-small;
+}
+
+#bombsCount {
+    font-family: "Press Start 2P", system-ui;
+    font-size: x-small;
+}
+
+#flagsPlaced {
+    font-family: "Press Start 2P", system-ui;
+    font-size: x-small;
+}
+
+.gameMessage {
+    font-family: "Press Start 2P", system-ui;
+    font-size: x-small;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    align-items: center;
+}

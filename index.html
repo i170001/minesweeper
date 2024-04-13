@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="game-header">
+            <h1>Minesweeper</h1>
+            <div class="game-controls">
+                <select id="difficulty">
+                    <option value="easy" selected>Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <button id="startGame">Start Game</button>
+            </div>
+        </header>
+        <div class="game-info">
+            <span id="timer"></span>
+            <span id="bombsCount"></span>
+            <span id="flagsPlaced"></span>
+        </div>
+        <div class="board">
+            <!-- based on difficulty selected, to add dynamically -->
+        </div>
+        <div class="gameMessage"></div>
+    </div>
+</body>
+</html>
