@@ -13,10 +13,10 @@ Reveal squares of the grid by clicking or tapping on them. If a square containin
 
 ## Screenshots
 
-<img src="image/minesweeper-2.png" alt="Gameplay Screenshot">
+<img src="url_to_gameplay_screenshot.jpg" alt="Gameplay Screenshot" style="display: block; margin-bottom: 0px;">
 <i>Initial gameplay of Minesweeper showing a partially cleared board.</i>
-
-<img src="image/minesweeper-3.png" alt="Losing Screenshot">
+<br>
+<img src="image/minesweeper-3.png" alt="Losing Screenshot" style="display: block; margin-bottom: 0px;">
 <i>The game board after revealing a mine.</i>
 
 ## Technologies Used
