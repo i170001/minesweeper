@@ -31,6 +31,7 @@ Reveal squares of the grid by clicking or tapping on them. If a square containin
 - **Leaderboard**: Implement a system to record player scores and times.
 - **Mobile Compatibility**: Ensure the game is fully playable on mobile devices.
 - **Double Click**: (on a numbered square) Reveals adjacent squares automatically if flagged mines match the number.
+- **No-guess mode**: Re-think the bomb generation algorithm.
 
 ## Contributing
 
